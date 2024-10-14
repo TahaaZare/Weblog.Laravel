@@ -15,6 +15,7 @@ class User extends Authenticatable
         'username',
         'display_name',
         'mobile',
+        'email',
         'show_email',
         'show_mobile',
         'password',
