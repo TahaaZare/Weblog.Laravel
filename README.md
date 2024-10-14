@@ -1,5 +1,7 @@
 # Weblog Website
 
+<img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="100"/>
+
 A simple weblog website built using Laravel. 
 
 ## Table of Contents
