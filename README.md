@@ -1,5 +1,8 @@
-<img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="100"/>
-Laravel
+<p>
+  <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="30"/>
+  <strong>Laravel</strong>
+</p>
+
 
 # Weblog Website
 
