@@ -14,7 +14,15 @@ class ArticleCategory extends Model
         'slug',
         'image'
     ];
-
+    protected static function boot()
+    {
+        parent::boot();
+        static::creating(function ($model) {
+            if (empty($model->slug)) {
+                $model->slug = strtolower(trim(preg_replace('/\s+/', '-', $model->name)));
+            }
+        });
+    }
 
     public function posts()
     {
