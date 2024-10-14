@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('title')->unique();
             $table->string('slug')->unique();
 
-            $table->foreignId('article_id')->constrained('article_categories')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('article_category_id')->constrained('article_categories')->onUpdate('cascade')->onDelete('cascade');
             $table->foreignId('user_id')->constrained('users')->onUpdate('cascade')->onDelete('cascade');
 
 

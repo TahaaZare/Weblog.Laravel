@@ -12,7 +12,7 @@ class Article extends Model
     protected $fillable = [
         "title",
         "slug",
-        "article_id",
+        "article_category_id",
         "user_id",
         "tags",
         "description",
@@ -29,7 +29,7 @@ class Article extends Model
 
     public function category()
     {
-        return $this->belongsTo(ArticleCategory::class);
+        return $this->belongsTo(ArticleCategory::class,'article_category_id');
     }
 
     public function user(){
