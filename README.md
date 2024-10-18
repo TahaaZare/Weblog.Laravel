@@ -19,7 +19,6 @@ A simple weblog website built using Laravel.
 - Site Setting (Admin Panel)
 - Articles (UserPanel & AdminPanel)
 - About Us
-- Contact Us
 
 ## Technologies
 
