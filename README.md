@@ -1,6 +1,6 @@
 ![LARAVEL](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)
 
-<p align="center"><img style="border-radius:1rem" src="https://tahazare.ir/Dashboard.png" width="600"
+<p align="center"><img style="border-radius:1rem" src="https://tahazare.ir/Dashboard.png" 
  alt="Laravel Logo"></p>
 
 # Weblog Website
