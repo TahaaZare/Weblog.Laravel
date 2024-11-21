@@ -81,7 +81,7 @@ class ArticleResource extends Resource
                     ->collapsed()
                     ->schema([
                         \Filament\Forms\Components\FileUpload::make('image')
-                            ->directory('articles')
+                                ->directory('articles')
                             ->image()
                             ->columnSpanFull()
                             ->required()
